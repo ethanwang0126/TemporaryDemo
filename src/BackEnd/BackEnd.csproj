@@ -47,9 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\CourseController.cs" />
     <Compile Include="BLL\student.cs" />
     <Compile Include="BLL\StudentController.cs" />
     <Compile Include="DAL\MyDatabaseContext.cs" />
+    <Compile Include="Entities\Course.cs" />
     <Compile Include="Entities\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
